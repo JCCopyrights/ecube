@@ -1,0 +1,16 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ecube.PrjPCB|ReportField=ProjectFullPath~C:\Users\Juan Carlos\Documents\Altium\Proyectos\ecube\ecube\ecube.PrjPCB|ReportField=Title~Bill of Materials For PCB Document [PCB1.PcbDoc]|ReportField=ReportTime~0:03:48|ReportField=ReportDate~13/11/2018|ReportField=ReportDateTime~13/11/2018 0:03:48|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~62|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~39fa04b72492a8d16c4fd9ab2d80a0f3923cd05d|ReportField=DataSourceFileName~PCB1.PcbDoc|ReportField=DataSourceFullPath~C:\Users\Juan Carlos\Documents\Altium\Proyectos\ecube\ecube\PCB1.PcbDoc|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|MCABT-408-RC|ransductor, 1 V a 3 V, 85 dBA, Sirena, 70 mA|B1|MCABT-408-RC|MCABT-408-RC|1
+2|Cap Semi|Capacitor (Semiconductor SIM Model)|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11|C1206|Cap Semi|11
+3|47346-1001|MOLEX - 47346-1001 - MULTIPOLE CONNECTOR Conector USB, Micro USB Tipo B, USB 2.0 Montaje Superficial,|CN1|47346-1001|47346-1001|1
+4|PMEG3020DEP,115|NEXPERIA - Rectificador Schottky, 30 V, 2 A|D1, D2|SOD-128|PMEG3020DEP,115|2
+5|KM-23|Kingbright - LED, SOT-23|L1, L2, L3, L4, L5, L6, L7, L8, L9, L10|SOT-23|KM-23|10
+6|Header 2|Header, 2-Pin|P1, P2|HDR1X2|Header 2|2
+7|Header 4|Header, 4-Pin|P6|HDR1X4|Header 4|1
+8|Header 8|Header, 8-Pin|P7|HDR1X8|Header 8|1
+9|FSM2JSMASTR|TE Connectivity - Interruptor Táctil, Montaje Superficial (SMD)|PROG, RST|BUTTON_SMD|FSM2JSMASTR|2
+10|Res3|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25|J1-0603|Res3|25
+11|SBC846BWT1G|ON SEMICONDUCTOR - SBC846BWT1G - TRANSISTOR, BIPOL, NPN, 65V|T1, T2|SOT-323|SBC846BWT1G|2
+12|FT232RL-Reel|USB UART Asynchronous Serial Data Transfer Chip, SSOP-28, Tape and Reel|U1|SSOP-28_N|FT232RL-Reel|1
+13|NCP1117ST33T3G|ON SEMICONDUCTOR  - Regulador de Tensión Fija LDO 3.3V 1A|U2|SOT-223-3|NCP1117ST33T3G|1
+14|ESP8266-12E||U3|ESP8266-12E|ESP8266-12E|1
+15|MPU-6050|INVENSENSE - Módulo MEMS, Giroscopio de Tres Ejes, Acelerómetro de Tres Ejes|U4|QFN50P400X400X95-25N|MPU-6050|1
