@@ -1,0 +1,19 @@
+.NCP1117ST33T3G :1 ;ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="GND" 2="OUT_1" 3="IN" 4="OUT_2"
+*MXP 4
+*DFN NCP1117ST33T3G
+~!Manufacturer_Name (ON Semiconductor)
+~!Manufacturer_Part_Number (NCP1117ST33T3G)
+~!RS Part Number (7857207P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/7857207P)
+~!Allied_Number (70340559)
+~!Link Allied Price/Stock (http://www.alliedelec.com/on-semiconductor-ncp1117st33t3g/70340559/)
+~!Arrow Part Number (NCP1117ST33T3G)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ncp1117st33t3g/on-semiconductor)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF)
+~!Height (1.8mm)
+NCP1117ST33T3G
+1.1!G 2.1!Y 3.1!I 4.1!Y 

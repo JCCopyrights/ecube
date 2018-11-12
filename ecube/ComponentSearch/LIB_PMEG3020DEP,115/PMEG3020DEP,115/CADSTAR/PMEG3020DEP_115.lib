@@ -1,0 +1,17 @@
+.PMEG3020DEP_115 :1 ;Diode Schottky 30V 2A MEGA Auto SOD-128
+SOD128
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PMEG3020DEP_115
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PMEG3020DEP,115)
+~!RS Part Number (1513051)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1513051)
+~!Arrow Part Number (PMEG3020DEP,115)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pmeg3020dep115/nexperia)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf)
+~!Height (-)
+PMEG3020DEP_115
+1.1!U 2.1!U 

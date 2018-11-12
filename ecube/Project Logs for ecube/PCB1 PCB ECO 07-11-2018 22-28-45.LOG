@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=RXD Pin=R2-2
+Removed Member From Class: ClassName=usb_uart Member=R2

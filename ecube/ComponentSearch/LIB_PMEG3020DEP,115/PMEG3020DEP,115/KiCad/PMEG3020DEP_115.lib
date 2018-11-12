@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PMEG3020DEP,115
+#/994562/67827/2.32/2/4/Schottky Diode
+DEF PMEG3020DEP,115 D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "PMEG3020DEP,115" 400 250 50 H V L BNN
+F2 "SOD128" 400 150 50 H I L BNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf" 400 50 50 H I L BNN
+F4 "Diode Schottky 30V 2A MEGA Auto SOD-128" 400 -50 50 H I L BNN "Description"
+F5 "" 400 -150 50 H I L BNN "Height"
+F6 "Nexperia" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "PMEG3020DEP,115" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "1513051" 400 -450 50 H I L BNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1513051" 400 -550 50 H I L BNN "RS Price/Stock"
+F10 "PMEG3020DEP,115" 400 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pmeg3020dep115/nexperia" 400 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

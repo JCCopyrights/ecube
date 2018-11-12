@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=#RST Pin=R7-2
+Removed Pin From Net: NetName=#RST Pin=T1-3
+Removed Pin From Net: NetName=#RST Pin=U3-1
+Change Component Designator: OldDesignator=PROG NewDesignator=B3
+Added Pin To Net: NetName=NetB2_1 Pin=R7-2
+Added Pin To Net: NetName=NetB2_1 Pin=T1-3
+Added Pin To Net: NetName=NetB2_1 Pin=U3-1
+Change Net Name : Old Net Name=#RST New Net Name=GND
+Change Net Name : Old Net Name=NetB2_1 New Net Name=#RST
+Added Room: Name=processingsys

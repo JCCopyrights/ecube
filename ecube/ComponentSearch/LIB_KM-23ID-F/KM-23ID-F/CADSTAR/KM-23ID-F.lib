@@ -1,0 +1,17 @@
+.KM-23ID-F :1 ;Kingbright KM-23ID-F, 625 nm Red LED, 3-Pin SOT-23 SMD package
+SOT-23
+*STM LED
+*NGS
+*PLB 1="ANODE" 2="N.C." 3="CATHODE"
+*MXP 3
+*DFN KM-23ID-F
+~!Manufacturer_Name (Kingbright)
+~!Manufacturer_Part_Number (KM-23ID-F)
+~!RS Part Number (4664131P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/4664131P)
+~!Arrow Part Number (KM-23ID-F)
+~!Link Arrow Price/Stock (http://uk.rs-online.com/web/p/products/4664131P)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/KM-23ID-F.pdf)
+~!Height (-)
+KM-23ID-F
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPU-6050
+D Gyro & Accelerometer 6 Axis I2C,MEMs InvenSense MPU-6050 6-Axis Motion Sensor Module
+K
+F http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+$ENDCMP
+#
+#End Doc Library

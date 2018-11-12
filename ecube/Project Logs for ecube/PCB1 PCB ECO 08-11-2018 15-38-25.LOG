@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator= NewDesignator=U3
+Change Component Designator: OldDesignator=PROG NewDesignator=B3
+Change Component Designator: OldDesignator=RESET NewDesignator=L10
+Added Member To Class: ClassName=processingsys Member=Component B3 FSM2JSMASTR
+Added Member To Class: ClassName=processingsys Member=Component L5 KM-23
+Added Member To Class: ClassName=processingsys Member=Component U3 ESP8266-12E
+Added Room: Name=mpu6050
+Added Room: Name=processingsys
+Added Room: Name=usb_uart

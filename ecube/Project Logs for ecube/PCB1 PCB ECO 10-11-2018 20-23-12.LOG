@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=3.3VCC Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=#RST Pin=C7-2
+Added Pin To Net: NetName=3.3VCC Pin=R7-1
+Added Room: Name=mpu6050
+Added Room: Name=processingsys
+Added Room: Name=usb_uart

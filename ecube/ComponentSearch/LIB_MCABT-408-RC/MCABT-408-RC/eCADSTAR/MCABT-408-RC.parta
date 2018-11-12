@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_273981"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:47:34)
+    (utime 2018-10-20-06:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MCABT-408-RC")
+)
+
+
+(pinAssign "ECS_273981"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:47:34)
+    (utime 2018-10-20-06:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "-") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "+") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_273981")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MCABT-408-RC")
+)
+
+
+(part "MCABT-408-RC"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:47:34)
+    (utime 2018-10-20-06:31:13)
+    (packageRef "MCABT-408-RC")
+    (pinAssignRef "ECS_273981")
+    (interface
+        (port "1" (symbPinId 1) (portName "-") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "+") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LS")
+    (property "description" "MULTICOMP - MCABT-408-RC - SOUNDER, ELECTRO MECH, AUDIO, 1.5VP-P")
+    (property "uaManufacturer" "MULTICOMP")
+    (property "uaManufacturerPartNumber" "MCABT-408-RC")
+    (property "uaVendor" "Arrow")
+    (property "uaVendorReference" "")
+    (property "uaAttribute1" "http://www.farnell.com/datasheets/1768519.pdf")
+    (property "compAreaTopHeight" 7.5)
+)
+
+

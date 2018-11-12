@@ -1,0 +1,17 @@
+.MCABT-408-RC :1 ;MULTICOMP - MCABT-408-RC - SOUNDER, ELECTRO MECH, AUDIO, 1.5VP-P
+MCABT408RC
+*STM LS
+*NGS
+*PLB 1="-" 2="+"
+*MXP 2
+*DFN MCABT-408-RC
+~!Manufacturer_Name (MULTICOMP)
+~!Manufacturer_Part_Number (MCABT-408-RC)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Arrow Part Number (MCABT-408-RC)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.farnell.com/datasheets/1768519.pdf)
+~!Height (7.5mm)
+MCABT-408-RC
+1.1!U 2.1!U 

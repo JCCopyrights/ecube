@@ -1,0 +1,17 @@
+.FSM2JSMASTR :1 ;SMT Sealed,Tact,160gf
+FSM2JSMASTR
+*STM S
+*NGS
+*PLB 1="NO_1" 2="NO_2" 3="COM_1" 4="COM_2"
+*MXP 4
+*DFN FSM2JSMASTR
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (FSM2JSMASTR)
+~!RS Part Number (1639313)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1639313)
+~!Arrow Part Number (FSM2JSMASTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fsm2jsmastr/te-connectivity)
+~!Link Datasheet (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1977223%7FA5%7Fpdf%7FEnglish%7FENG_CD_1977223_A5.pdf%7F1977223-4)
+~!Height (4mm)
+FSM2JSMASTR
+1.1!U 2.1!U 3.1!U 4.1!U 

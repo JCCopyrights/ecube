@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCABT-408-RC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-10-19-08:47:34)
+    (mountForm default
+        (footprintRef "MCABT408RC")
+        (spec "System")
+    )
+)

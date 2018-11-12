@@ -1,0 +1,17 @@
+.47346-1001 :1 ;MOLEX - 47346-1001 - MULTIPOLE CONNECTOR
+"47346-0001"
+*STM J
+*NGS
+*PLB 1="VBUS_1" 2="D+" 3="D-" 4="VBUS_2" 5="NAME"
+*MXP 11
+*DFN 47346-1001
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (47346-1001)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Arrow Part Number (47346-1001)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.molex.com/webdocs/datasheets/pdf/en-us/0473461001_IO_CONNECTORS.pdf)
+~!Height (-)
+"47346-1001"
+1.1!U 3.1!U 5.1!U 2.1!U 4.1!U 

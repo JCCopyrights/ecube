@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KM-23ID-F
+D Kingbright KM-23ID-F, 625 nm Red LED, 3-Pin SOT-23 SMD package
+K
+F https://componentsearchengine.com/Datasheets/2/KM-23ID-F.pdf
+$ENDCMP
+#
+#End Doc Library

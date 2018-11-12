@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_994562"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:56:05)
+    (utime 2018-10-20-06:31:34)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "PMEG3020DEP_115")
+)
+
+
+(pinAssign "ECS_994562"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:56:05)
+    (utime 2018-10-20-06:31:34)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_994562")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PMEG3020DEP_115")
+)
+
+
+(part "PMEG3020DEP_115"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-19-08:56:05)
+    (utime 2018-10-20-06:31:34)
+    (packageRef "PMEG3020DEP_115")
+    (pinAssignRef "ECS_994562")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diode Schottky 30V 2A MEGA Auto SOD-128")
+    (property "uaManufacturer" "Nexperia")
+    (property "uaManufacturerPartNumber" "PMEG3020DEP,115")
+    (property "uaVendor" "Arrow")
+    (property "uaVendorReference" "PMEG3020DEP,115")
+    (property "uaAttribute1" "https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf")
+)
+
+

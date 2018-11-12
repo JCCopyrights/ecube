@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SOD128"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SOD128")
+        (spec "default")
+    )
+)

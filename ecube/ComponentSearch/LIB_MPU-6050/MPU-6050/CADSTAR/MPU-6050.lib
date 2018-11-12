@@ -1,0 +1,18 @@
+.MPU-6050 :1 ;Gyro & Accelerometer 6 Axis I2C,MEMs InvenSense MPU-6050 6-Axis Motion Sensor Module
+QFN50P400X400X95-25N
+*STM IC
+*NGS
+*PLB 1="CLKIN" 2="NC_1" 3="NC_2" 4="NC_3" 5="NC_4" 6="AUX_DA" 7="AUX_CL" 8="VLOGIC" 9="AD0" 10="REGOUT" 11="FSYNC" 12="INT" 13="VDD" 14="NC_5" 15="NC_6" 16="NC_7" 17="NC_8" 18="GND" 19="RESV_1" 20="CPOUT" 21="RESV_2" 22="RESV_3" 23="SCL" 24="SDA" 25="THERMAL PAD"
+*MXP 25
+*DFN MPU-6050
+~!Manufacturer_Name (INVENSENSE)
+~!Manufacturer_Part_Number (MPU-6050)
+~!RS Part Number (8837948P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/8837948P)
+~!Arrow Part Number (MPU-6050)
+~!Link Arrow Price/Stock (http://uk.rs-online.com/web/p/products/8837948P)
+~!Link Datasheet (http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf)
+~!Height (0.95mm)
+~!3D_Model (MPU-6050)
+MPU-6050
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 
