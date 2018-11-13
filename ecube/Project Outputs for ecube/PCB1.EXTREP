@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCB1.GBR   12/11/2018  23:16:48
+Gerber File Extension Report For: PCB1.GBR   13/11/2018  11:51:02
 ------------------------------------------------------------------------------------------
 
 
@@ -17,6 +17,7 @@ Layer Extension     Layer Description
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
 .GM20               Mechanical 20                           
+.GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
 ------------------------------------------------------------------------------------------
