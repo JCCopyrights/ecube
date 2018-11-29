@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=TXD Pin=R1-2
+Removed Pin From Net: NetName=RXD Pin=R2-2
+Added Pin To Net: NetName=GPIO15 Pin=L5-1
+Added Pin To Net: NetName=GPIO2 Pin=L6-1
+Added Pin To Net: NetName=GPIO0 Pin=L7-1
+Added Pin To Net: NetName=RXD Pin=R1-2
+Added Pin To Net: NetName=TXD Pin=R2-2
+Added Room: Name=mpu6050
+Added Room: Name=processingsys
+Added Room: Name=usb_uart

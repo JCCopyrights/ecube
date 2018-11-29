@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GPIO15 Pin=L5-1
+Removed Pin From Net: NetName=GPIO2 Pin=L6-1
+Removed Pin From Net: NetName=GPIO0 Pin=L7-1
+Removed Pin From Net: NetName=GND Pin=R17-2
+Removed Pin From Net: NetName=GND Pin=R18-2
+Removed Pin From Net: NetName=GND Pin=R19-2
+Removed Member From Class: ClassName=processingsys Member=L5
+Removed Member From Class: ClassName=processingsys Member=L6
+Removed Member From Class: ClassName=processingsys Member=L7
+Removed Member From Class: ClassName=processingsys Member=R17
+Removed Member From Class: ClassName=processingsys Member=R18
+Removed Member From Class: ClassName=processingsys Member=R19
+Added Room: Name=mpu6050
+Added Room: Name=processingsys
+Added Room: Name=usb_uart

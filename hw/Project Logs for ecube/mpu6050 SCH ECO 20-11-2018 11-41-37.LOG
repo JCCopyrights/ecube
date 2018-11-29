@@ -1,0 +1,7 @@
+Remove Pin=L5-1 From Net=GPIO15
+Remove Pin=L6-1 From Net=GPIO2
+Remove Pin=L7-1 From Net=GPIO0
+Remove Pin=R1-2 From Net=RXD
+Remove Pin=R2-2 From Net=TXD
+Add Pin To Net: Pin=R1-2 Old Net=RXD New Net=TXD
+Add Pin To Net: Pin=R2-2 Old Net=TXD New Net=RXD
