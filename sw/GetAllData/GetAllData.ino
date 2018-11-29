@@ -20,7 +20,7 @@
 
 
 // MPU control/status vars
-MPU6050 mpu(0x68);
+MPU6050 mpu(0x69);
 int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
 char AcXStr[7];
 char AcYStr[7];
