@@ -4,9 +4,9 @@
 #include <Adafruit_SSD1306.h>
 #include <Wire.h>
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-	void testdrawline() {
+
+void testdrawline(Adafruit_SSD1306 &display) {
   int16_t i;
 
   display.clearDisplay(); // Clear display buffer
@@ -67,7 +67,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
   delay(2000); // Pause for 2 seconds
 }
 
-void testdrawrect(void) {
+void testdrawrect(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2; i+=2) {
@@ -79,7 +79,7 @@ void testdrawrect(void) {
   delay(2000);
 }
 
-void testfillrect(void) {
+void testfillrect(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2; i+=3) {
@@ -92,7 +92,7 @@ void testfillrect(void) {
   delay(2000);
 }
 
-void testdrawcircle(void) {
+void testdrawcircle(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<max(display.width(),display.height())/2; i+=2) {
@@ -104,7 +104,7 @@ void testdrawcircle(void) {
   delay(2000);
 }
 
-void testfillcircle(void) {
+void testfillcircle(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=max(display.width(),display.height())/2; i>0; i-=3) {
@@ -117,7 +117,7 @@ void testfillcircle(void) {
   delay(2000);
 }
 
-void testdrawroundrect(void) {
+void testdrawroundrect(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2-2; i+=2) {
@@ -130,7 +130,7 @@ void testdrawroundrect(void) {
   delay(2000);
 }
 
-void testfillroundrect(void) {
+void testfillroundrect(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2-2; i+=2) {
@@ -144,7 +144,7 @@ void testfillroundrect(void) {
   delay(2000);
 }
 
-void testdrawtriangle(void) {
+void testdrawtriangle(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=0; i<max(display.width(),display.height())/2; i+=5) {
@@ -159,7 +159,7 @@ void testdrawtriangle(void) {
   delay(2000);
 }
 
-void testfilltriangle(void) {
+void testfilltriangle(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   for(int16_t i=max(display.width(),display.height())/2; i>0; i-=5) {
@@ -175,7 +175,7 @@ void testfilltriangle(void) {
   delay(2000);
 }
 
-void testdrawchar(void) {
+void testdrawchar(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   display.setTextSize(1);      // Normal 1:1 pixel scale
@@ -194,7 +194,7 @@ void testdrawchar(void) {
   delay(2000);
 }
 
-void testdrawstyles(void) {
+void testdrawstyles(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   display.setTextSize(1);             // Normal 1:1 pixel scale
@@ -212,7 +212,8 @@ void testdrawstyles(void) {
   display.display();
   delay(2000);
 }
-void testscrolltext(void) {
+
+void testscrolltext(Adafruit_SSD1306 &display) {
   display.clearDisplay();
 
   display.setTextSize(2); // Draw 2X-scale text
@@ -224,11 +225,11 @@ void testscrolltext(void) {
 
   // Scroll in various directions, pausing in-between:
   display.startscrollright(0x00, 0x0F);
-  delay(2000);
+  delay(1000);
   display.stopscroll();
   delay(1000);
   display.startscrollleft(0x00, 0x0F);
-  delay(2000);
+  delay(1000);
   display.stopscroll();
  // delay(1000);
   //display.startscrolldiagright(0x00, 0x07);
@@ -236,17 +237,17 @@ void testscrolltext(void) {
   //display.startscrolldiagleft(0x00, 0x07);
  // delay(2000);
   //display.stopscroll();
-  delay(1000);
+ // delay(1000);
 }
 
-	void initialize_ssd1306(){
+void initialize_ssd1306(Adafruit_SSD1306 &display){
 display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
 display.clearDisplay();
   display.display();  
 	}
 
 
-	void test_ssd1306(){
+void test_ssd1306(Adafruit_SSD1306 &display){
 		
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
   //display.begin(SSD1306_SWITCHCAPVCC, 0x3C); // Address 0x3D for 128x64
@@ -275,7 +276,7 @@ display.clearDisplay();
   // drawing operations and then update the screen all at once by calling
   // display.display(). These examples demonstrate both approaches...
 
-  testdrawline();      // Draw many lines
+  testdrawline(display);      // Draw many lines
 
  // testdrawrect();      // Draw rectangles (outlines)
 
@@ -293,11 +294,11 @@ display.clearDisplay();
 
  // testfilltriangle();  // Draw triangles (filled)
 
-  testdrawchar();      // Draw characters of the default font
+  testdrawchar(display);      // Draw characters of the default font
 
-  testdrawstyles();    // Draw 'stylized' characters
+  testdrawstyles(display);    // Draw 'stylized' characters
 
-  testscrolltext();    // Draw scrolling text
+  testscrolltext(display);    // Draw scrolling text
 
   
 
@@ -312,4 +313,3 @@ display.clearDisplay();
 
 	}
 	
-

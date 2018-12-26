@@ -5,7 +5,6 @@
 		pinMode(BUZZER, OUTPUT);
 	}
 	
-	
 	void play_melody(int* melody, int* noteDurations, int num_notes){
 		 for (int thisNote = 0; thisNote < num_notes; thisNote++) {
 			// to calculate the note duration, take one second divided by the note type.

@@ -5,10 +5,10 @@
 	#define LED0	14
 	#define LEDINT	2
 
-void initialize_led();
+	void initialize_led();
 
-void turn_led(uint8_t led_number, uint8_t led_state);	
+	void turn_led(uint8_t led_number, uint8_t led_state);	
 
-void toggle_led(uint8_t led_number);
+	void toggle_led(uint8_t led_number);
 
 #endif 
