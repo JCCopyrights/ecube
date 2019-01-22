@@ -1,6 +1,6 @@
 # ecube
 Electronic Cube for domotic applications
-
+Designed for WiFi-Mesh
 Dependencies:
   #include <Arduino.h> 
   #include <Wire.h>
